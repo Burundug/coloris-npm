@@ -954,6 +954,9 @@ return ((window, document, Math, undefined) => {
         '<span></span>'+
       '</fieldset>'+
     '</div>'+
+    '<div id="clr--name">'+
+    '<input type="text" placeholder="Алиас цвета"/>'
+    '</div>'+
     '<div id="clr-swatches" class="clr-swatches"></div>'+
     `<button type="button" id="clr-clear" class="clr-clear" aria-label="${settings.a11y.clear}">${settings.clearLabel}</button>`+
     '<div id="clr-color-preview" class="clr-preview">'+
